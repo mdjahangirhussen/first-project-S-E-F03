@@ -1,0 +1,249 @@
+/*============================================
+	### Responsive Mobile-First Media Queries ###
+================================================= */
+
+/* ----------------- max1199px ------------------ */
+/* ---------------------------------------------- */
+@media(max-width: 1199.98px) {
+    .navbar-brand.navbar-logo h2 {
+        padding-top: 10px;
+    }
+
+    .social-menu {
+        padding: 23px 3px;
+    }
+}
+
+/* ----------------- max992px ------------------ */
+/* ---------------------------------------------- */
+
+@media(max-width: 991.98px) {
+
+    .navbar-brand.navbar-logo h2 {
+        font-size: 24px;
+        padding-top: 10px;
+    }
+
+    .overlay-bg:after {
+        background: url(../images/angle-bg.png) no-repeat scroll center bottom 0px / 100% auto;
+    }
+
+    .banner-content h2 {
+        font-size: 36px;
+    }
+
+    .service-sub-section.section-padding {
+        padding: 0;
+        padding-top: 20px;
+        padding-bottom: 120px;
+    }
+
+    .sss-content h2 {
+        font-size: 36px;
+        font-weight: 700;
+    }
+
+    .carousel-indicators {
+        bottom: -10%;
+    }
+
+    .collapse-faq {
+        font-weight: 700;
+        font-size: 15px;
+    }
+
+    .card-body.blog-card-body h5 {
+        font-size: 16px;
+    }
+
+    .address {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .address .media img {
+        margin-right: 12px !important;
+        width: 60px;
+    }
+
+    .address .media .media-body span {
+        color: #fff;
+        font-size: 15px;
+    }
+}
+
+/* ----------------- max768px ------------------ */
+/* ---------------------------------------------- */
+@media(max-width: 767.98px) {
+    .section-padding {
+        padding: 70px 0 !important;
+    }
+
+    .header-section .navbar {
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .header-section #primary-menu {
+        background-color: #138FC2 !important;
+
+    }
+
+    .full-height {
+        height: auto;
+    }
+
+    .main-menu ul li a {
+        padding: 8px 15px !important;
+        font-size: 14px;
+    }
+
+    .banner-section {
+        padding: 120px 0 100px;
+        overflow: hidden;
+    }
+
+    .banner-content h2 {
+        font-size: 24px;
+    }
+
+    .service-box {
+        text-align: center;
+        padding: 30px 20px;
+    }
+
+    .section-title h2 {
+        font-size: 24px;
+    }
+
+    .specila-features h4 {
+        font-size: 20px;
+    }
+
+    .sss-content h2 {
+        font-size: 24px;
+    }
+
+    .section-padding {
+        padding: 100px 0;
+    }
+
+    .pricing-table {
+        margin-bottom: 30px;
+    }
+
+    .blog-card {
+        margin-bottom: 30px;
+    }
+
+    .address {
+        display: block;
+    }
+
+    .footer-content {
+        margin: 100px 0 60px;
+    }
+
+    .row.footer-content-row {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .footer-social-menu {
+        justify-content: flex-start;
+
+    }
+
+    .footer-content {
+        margin: 30px 0 0px;
+    }
+
+    .footer-content p {
+        margin-top: 70px;
+    }
+}
+
+/* ----------------- max575px ------------------ */
+/* ---------------------------------------------- */
+@media (min-width:480px) and (max-width: 575.98px) {
+    .navbar-brand.navbar-logo h2 {
+        font-size: 22px;
+    }
+
+    .banner-section {
+        padding: 100px 0 80px;
+        overflow: hidden;
+    }
+
+    .banner-content h2 {
+        font-size: 20px;
+    }
+
+    .banner-content p {
+        font-size: 13px;
+    }
+
+    .btn-custom {
+        background: #fff;
+        padding: 5px 20px;
+        font-size: 14px;
+    }
+
+    .collapse-faq {
+        font-size: 13px;
+    }
+
+    .faq-card .card-body {
+        font-size: 13px;
+    }
+}
+
+/* ----------------- max575px ------------------ */
+/* ---------------------------------------------- */
+@media (min-width: 320px) and (max-width: 479.98px) {
+    .banner-section {
+        padding: 120px 0 10px;
+        overflow: hidden;
+    }
+
+    .banner-content p {
+        display: none;
+    }
+
+    .overlay-bg:after {
+        background: url(../images/angle-bg.png) no-repeat scroll center bottom 0px / 100% auto;
+
+    }
+
+    .sss-content-one {
+        margin-top: 20px;
+    }
+
+    .sss-content-two {
+        display: none;
+    }
+
+    .carousel-indicators-caption {
+        font-size: 12px;
+    }
+
+    .carousel-indicators-caption p {
+        display: none;
+    }
+
+    .section-title i {
+        top: 25%;
+
+    }
+
+    .section-title.faq-title i {
+        top: 35%;
+    }
+
+    .collapse-faq {
+        font-weight: 700;
+        font-size: 14px;
+    }
+}
+
+/* ----- End max575px ----- */
