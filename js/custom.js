@@ -6,6 +6,7 @@
 ==============================================
 *========== TABLE OF CONTENTS ================
 
+    0.0 Current Year 
     0.1 WoW js 
     0.2 Preloader Js
 	0.3 client-silder
@@ -22,6 +23,12 @@ $(document).ready(function () {
     "use strict";
 
 
+   /*--------------------------------
+     	 0.0 Current Year  
+    ----------------------------------*/
+
+ document.getElementById("year").textContent = new Date().getFullYear();
+
     /*--------------------------------
     0.1 Preloader Js
 ----------------------------------*/
@@ -30,6 +37,8 @@ $(document).ready(function () {
             $('.preloader').fadeOut(500);
         });
     });
+
+    
     /*--------------------------------
      	 0.2 WoW js 
     ----------------------------------*/
